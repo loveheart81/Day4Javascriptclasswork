@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConditionalStatement</title>
+</head>
+<body>
+    <p id="GradeA"></p>
+    <p id="GradeB"></p>
+    <p id="GradeC"></p>
+    <p id="GradeD"></p>
+    <p id="GradeE"></p>
+    <p id="GradeF"></p>
+    
+
+    <script>   
+    let  score=100;
+    if(score >= 70 && score <= 100){
+    document.getElementById('GradeA').innerHTML='Grade A'
+    console.log('A')}
+
+    else if(score >=60 && score<=70){
+    document.getElementById('GradeB').innerHTML='Grade B'
+    console.log('B')    
+    }
+    else if(score >=50 && score<=60){
+    document.getElementById('GradeC').innerHTML='Grade C'    
+    console.log('c')    
+    }
+
+    else if(score>=45 && score<=50){
+    document.getElementById('GradeD').innerHTML='Grade D'    
+    console.log('D')    
+    }
+
+    else if (score>=40 && score<=45){
+    document.getElementById('GradeE').innerHTML='Grade E'    
+    console.log('E')    
+    }
+
+    else{
+    document.getElementById('GradeF').innerHTML='INVALID'
+        console.log('INVALID')
+    }
+    
+
+
+
+  
+
+  
+
+     
+        
+
+    
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
